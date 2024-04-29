@@ -1,0 +1,12 @@
+import requests
+
+ENDPOINT= ""
+API_KEY= ""
+
+parameters={
+'apikey': API_Key,
+
+}
+
+r = requests.get(ENDPOINT, params= parameters)
+stock_data = r.json()
