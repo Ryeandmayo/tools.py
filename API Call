@@ -9,4 +9,4 @@ parameters={
 }
 
 r = requests.get(ENDPOINT, params= parameters)
-stock_data = r.json()
+data = r.json()
